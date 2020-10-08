@@ -1,5 +1,22 @@
-$achtergrond: pink;
+$hoofdkleur: #2859bc;
+$secundaire-kleur-donker: #48592d;
+$secundaire-kleur: #81d742;
+$hoofdkleur-lichter: #4f82ff;
+$contrast-kleur: #ff652a;
+$achtergrond-donkerder: #cccccc;
+
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  background: $achtergrond;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: $hoofdkleur;
+  color: #fff;
 }

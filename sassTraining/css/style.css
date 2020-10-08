@@ -1,5 +1,16 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background: pink;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #2859bc;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
