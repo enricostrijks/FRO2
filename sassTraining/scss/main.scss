@@ -3,5 +3,11 @@
 body {
   font-family: $mijnFont;
 }
-
+.logo {
+  background-color: $secundaire-kleur;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 0.5em;
+  color: darken($secundaire-kleur, $amount: 30);
+}
 @import "header";
