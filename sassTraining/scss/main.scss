@@ -4,7 +4,4 @@ body {
   font-family: $mijnFont;
 }
 
-header {
-  background-color: $hoofdkleur;
-  color: #fff;
-}
+@import "header";
