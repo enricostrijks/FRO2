@@ -18,3 +18,32 @@ nav {
 #haal-menu:checked ~ .container {
   left: 10em;
 }
+
+#haal-menu:checked ~ .menu-halen .fa-times {
+  display: inline-block;
+}
+
+#haal-menu:checked ~ .menu-halen .fa-bars {
+  display: none;
+}
+
+.fa-bars {
+  display: inline-block;
+}
+
+// times verbergen
+.fa-times {
+  display: none;
+}
+
+//checkbox verbergen
+#haal-menu {
+  display: none;
+}
+
+.menu-halen {
+  float: right;
+  padding: 0.3em 2rem 0.3em 5em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
