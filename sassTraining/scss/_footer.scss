@@ -1,10 +1,15 @@
+/* footer */
+
 footer {
   background-color: $hoofdkleur;
   color: #fff;
   padding: 1em 0;
   border-bottom: 4px solid lighten($color: $hoofdkleur, $amount: 50);
   p {
-    padding: 2em;
-    display: inline-block;
+    padding: 2em 2em 0;
+  }
+  #validatie {
+    padding: 0 2em 2em;
+    text-align: right;
   }
 }

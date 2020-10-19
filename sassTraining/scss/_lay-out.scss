@@ -8,6 +8,11 @@ body {
   padding: 1.5em;
   color: darken($secundaire-kleur, $amount: 30);
 }
+.container {
+  position: relative;
+  left: 0;
+  transition: left 0.6s ease-in-out;
+}
 main {
   padding: 0.2em;
 }

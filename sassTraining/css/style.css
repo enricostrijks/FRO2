@@ -1,17 +1,106 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 3 | @import "lay-out";
- *   |         ^^^^^^^^^
- *   '
- *   scss\main.scss 3:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502  @import \"lay-out\";\d\a   \2502          ^^^^^^^^^\a   \2575 \a   scss\\main.scss 3:9  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
+/* reset */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  background-color: #81d742;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 1.5em;
+  color: #3a6a16;
+}
+
+.container {
+  position: relative;
+  left: 0;
+  transition: left 0.6s ease-in-out;
+}
+
+main {
+  padding: 0.2em;
+}
+
+section {
+  color: #48592d;
+}
+section h2 {
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+}
+
+/* navigatie */
+nav {
+  background-color: #cccccc;
+  position: absolute;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5em 5em 0.5em 2em;
+  border-bottom: 1px solid #ffffff;
+  color: #48592d;
+}
+nav a.actief {
+  border-bottom: 4px solid #ff652a;
+}
+
+/* container verplaatsen met checkbox */
+#haal-menu:checked ~ .container {
+  left: 10em;
+}
+
+header {
+  background-color: #2859bc;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  border-bottom: 4px solid #e9effa;
+}
+header h1 {
+  font-weight: 100;
+}
+header p {
+  padding: 1em;
+}
+
+.knop {
+  background-color: #81d742;
+  color: #48592d;
+  font-size: 1.1em;
+  padding: 0.5em 2em;
+}
+.knop:hover {
+  background-color: #48592d;
+  color: #ffffff;
+}
+.knop-houder {
+  text-align: center;
+  padding: 1em 0 1.5em;
+  border-bottom: 1px solid #48592d;
+}
+
+/* footer */
+footer {
+  background-color: #2859bc;
+  color: #fff;
+  padding: 1em 0;
+  border-bottom: 4px solid #e9effa;
+}
+footer p {
+  padding: 2em 2em 0;
+}
+footer #validatie {
+  padding: 0 2em 2em;
+  text-align: right;
+}
+
+/*# sourceMappingURL=style.css.map */
