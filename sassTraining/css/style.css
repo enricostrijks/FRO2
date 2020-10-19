@@ -85,6 +85,32 @@ nav a.actief {
   cursor: pointer;
 }
 
+@media screen and (min-width: 750px) {
+  /* naar een horizontaal menu bij bredere viewport */
+  .menu-halen {
+    display: none;
+  }
+
+  nav {
+    position: relative;
+    float: right;
+    width: auto;
+    text-align: right;
+    font-size: 1.2em;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a {
+    display: inline-block;
+    padding: 0.5em 2em 0.5em 2em;
+    border-bottom: 0;
+  }
+
+  .container {
+    clear: both;
+  }
+}
 header {
   background-color: #2859bc;
   color: #fff;
