@@ -1,49 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
-/* reset */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 3 | @import "lay-out";
+ *   |         ^^^^^^^^^
+ *   '
+ *   scss\main.scss 3:9  root stylesheet */
 
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-.logo {
-  background-color: #81d742;
-  display: inline-block;
-  font-size: 1.5em;
-  padding: 1.5em;
-  color: #3a6a16;
-}
-
-header {
-  background-color: #2859bc;
-  color: #fff;
-  padding: 1em 0;
-  text-align: center;
-  border-bottom: 4px solid #e9effa;
-}
-header h1 {
-  font-weight: 100;
-}
-header p {
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
   padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502  @import \"lay-out\";\d\a   \2502          ^^^^^^^^^\a   \2575 \a   scss\\main.scss 3:9  root stylesheet";
 }
-
-.knop {
-  background-color: #81d742;
-  color: #48592d;
-  font-size: 1.1em;
-  padding: 0.5em 2em;
-}
-.knop:hover {
-  background-color: #48592d;
-  color: #ffffff;
-}
-.knop-houder {
-  text-align: center;
-}
-
-/*# sourceMappingURL=style.css.map */

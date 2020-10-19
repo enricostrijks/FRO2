@@ -1,0 +1,10 @@
+footer {
+  background-color: $hoofdkleur;
+  color: #fff;
+  padding: 1em 0;
+  border-bottom: 4px solid lighten($color: $hoofdkleur, $amount: 50);
+  p {
+    padding: 2em;
+    display: inline-block;
+  }
+}

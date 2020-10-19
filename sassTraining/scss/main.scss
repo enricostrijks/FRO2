@@ -1,14 +1,6 @@
 @import "variabelen";
 @import "reset";
-body {
-  font-family: $mijnFont;
-}
-.logo {
-  background-color: $secundaire-kleur;
-  display: inline-block;
-  font-size: 1.5em;
-  padding: 1.5em;
-  color: darken($secundaire-kleur, $amount: 30);
-}
+@import "lay-out";
 @import "header";
 @import "knoppen";
+@import "footer";
