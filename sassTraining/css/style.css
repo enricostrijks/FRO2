@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
 /* reset */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +14,7 @@ body {
   background-color: #81d742;
   display: inline-block;
   font-size: 1.5em;
-  padding: 0.5em;
+  padding: 1.5em;
   color: #3a6a16;
 }
 
@@ -29,6 +30,20 @@ header h1 {
 }
 header p {
   padding: 1em;
+}
+
+.knop {
+  background-color: #81d742;
+  color: #48592d;
+  font-size: 1.1em;
+  padding: 0.5em 2em;
+}
+.knop:hover {
+  background-color: #48592d;
+  color: #ffffff;
+}
+.knop-houder {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

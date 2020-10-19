@@ -7,7 +7,8 @@ body {
   background-color: $secundaire-kleur;
   display: inline-block;
   font-size: 1.5em;
-  padding: 0.5em;
+  padding: 1.5em;
   color: darken($secundaire-kleur, $amount: 30);
 }
 @import "header";
+@import "knoppen";
