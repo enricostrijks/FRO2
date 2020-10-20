@@ -11,7 +11,7 @@ body {
 .container {
   position: relative;
   left: 0;
-  transition: left 0.6s ease-in-out;
+  @include transition(left 0.6s ease-in-out);
 }
 main {
   padding: 0.2em;
